@@ -1,0 +1,16 @@
+.services-item,
+.services-content {
+  background-color: #26d48c;
+  width: 100%;
+  height: 100%;
+}
+
+.bg-our-project {
+  background-color: #26d48c;
+  color: white;
+  font-size: 40px;
+}
+
+.border-white {
+  border: 5px solid blue !important;
+}/*# sourceMappingURL=style-service.css.map */

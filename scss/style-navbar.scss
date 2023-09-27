@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Croissant+One&family=Foldit:wght@200&family=Inclusive+Sans:ital@1&family=Lato:wght@700;900&family=Lilita+One&family=Martian+Mono:wght@400;500&family=Montserrat:ital,wght@0,400;0,900;1,200;1,900&family=Mooli&family=Pangolin&family=Phudu:wght@600&display=swap");
+
+$font-navbar: "Martian Mono", monospace;
+$warna-font: red;
+$ukuran-font: 16px;
+
+.nav-item {
+  font-family: $font-navbar;
+}
+
+.font-about1 {
+  $warna-font: yellow !global;
+  color: $warna-font;
+  font-family: $font-navbar;
+  background-color: yellow;
+  font-size: $ukuran-font;
+}
+
+.font-about2 {
+  color: $warna-font;
+  $ukuran-font: 25px;
+  $font-navbar: "Mooli", sans-serif;
+  font-size: $ukuran-font;
+  font-family: $font-navbar;
+  background-color: blue;
+}
+
+// // Mendeklarasikan variabel dengan tipe data Mapping
+// $breakpoints: (
+//   small: 576px,
+//   medium: 768px,
+//   large: 992px,
+//   xlarge: 1200px,
+// );
+
+// // Menggunakan nilai Mapping dalam style
+// .container {
+//   @each $name, $value in $breakpoints {
+//     @media (min-width: $value) {
+//       width: $value;
+//       font-size: map-get($breakpoints, $name);
+//     }
+//   }
+// }
+
+// $warna: red, green, blue;
+
+// body {
+//   color: nth($warna, 1);
+//   background-color: nth($warna, 3);
+// }
